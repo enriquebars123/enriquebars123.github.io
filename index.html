@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Ropa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/headerAlchile.jpg" alt="Portada" class="header-img">
+    </header>
+    <main>
+        <div id="catalogo" class="grid"></div>
+    </main>
+
+    <!-- Slider del carrito -->
+    <aside id="carrito-slider" class="carrito-slider">
+        <div class="carrito-header">
+            <h2>Carrito</h2>
+            <button id="cerrar-carrito">✖</button>
+        </div>
+        <div id="carrito-items" class="carrito-items"></div>
+        <div class="carrito-footer">
+            <button id="hacer-pedido">Hacer Pedido</button>
+        </div>
+    </aside>
+    <button id="abrir-carrito" class="abrir-carrito">6d2</button>
+
+    <!-- Popup para agregar al carrito -->
+    <div id="popup-agregar" class="popup oculto">
+        <div class="popup-contenido">
+            <h3>Agregar al Carrito</h3>
+            <label>Color:</label>
+            <select id="color-select"></select>
+            <label>Talla:</label>
+            <select id="talla-select"></select>
+            <label>Cantidad:</label>
+            <input type="number" id="cantidad-input" min="1" value="1">
+            <div class="popup-botones">
+                <button id="confirmar-agregar">Agregar</button>
+                <button id="cancelar-agregar">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup para datos del cliente -->
+    <div id="popup-pedido" class="popup oculto">
+        <div class="popup-contenido">
+            <h3>Datos del Cliente</h3>
+            <input type="text" id="nombre" placeholder="Nombre completo">
+            <input type="text" id="direccion" placeholder="Dirección">
+            <input type="text" id="numero" placeholder="Número de teléfono">
+            <input type="text" id="cp" placeholder="Código Postal">
+            <input type="text" id="municipio" placeholder="Municipio">
+            <input type="text" id="estado" placeholder="Estado">
+            <label><input type="checkbox" id="recoger"> Recoger en tienda</label>
+            <div class="popup-botones">
+                <button id="enviar-pedido">Enviar Pedido</button>
+                <button id="cancelar-pedido">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

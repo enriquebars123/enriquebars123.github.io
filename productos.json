@@ -1,0 +1,9 @@
+[
+    {"id":1,"nombre":"Camisa","precio":299,"tallas":["S","M","L"],"colores":["Rojo","Azul","Negro"],"imagen":["img/camisa.jpg","img/camisaCasual.jpg"],"soldOut":true},
+    {"id":2,"nombre":"Pantalón Jeans","precio":499,"tallas":["32","34","36"],"colores":["Azul","Negro"],"imagen":["img/jeans.jpg","img/camisa.jpg"],"soldOut":false},
+    {"id":3,"nombre":"Chaqueta Deportiva","precio":799,"tallas":["M","L","XL"],"colores":["Gris","Negro"],"imagen":["img/camisaCasual.jpg","img/jeans.jpg"],"soldOut":true},
+{"id":4,"nombre":"Camisa","precio":299,"tallas":["S","M","L"],"colores":["Rojo","Azul","Negro"],"imagen":["img/camisa.jpg","img/camisaCasual.jpg"],"soldOut":false},
+    {"id":5,"nombre":"Pantalón Jeans","precio":499,"tallas":["32","34","36"],"colores":["Azul","Negro"],"imagen":["img/jeans.jpg","img/camisa.jpg"],"soldOut":false},
+{"id":6,"nombre":"Camisa","precio":299,"tallas":["S","M","L"],"colores":["Rojo","Azul","Negro"],"imagen":["img/camisa.jpg","img/camisaCasual.jpg"],"soldOut":true},
+    {"id":7,"nombre":"Pantalón Jeans","precio":499,"tallas":["32","34","36"],"colores":["Azul","Negro"],"imagen":["img/jeans.jpg","img/camisa.jpg"],"soldOut":false}
+]
